@@ -155,7 +155,7 @@ footer {
 
 @keyframes glow {
     from {
-      text-shadow: 0 0 5px #fff, 0 0 10x #fff, 0 0 15px #028300, 0 0 20px #028300, 0 0 25px #028300, 0 0 30px #028300, 0 0 35px #028300;
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #028300, 0 0 20px #028300, 0 0 25px #028300, 0 0 30px #028300, 0 0 35px #028300;
     }
 
     to {
