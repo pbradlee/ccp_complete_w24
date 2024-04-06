@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Travel</title>
+</head>
+<body>
+    <header>
+        <a href="#main" class="skip-to-main-link">Skip to main content</a>
+        <nav>
+            <ul>
+                <li><a class ="inactive" href ="index.html"><img src="images/home-inactive.png" alt="">Home</a></li>
+                <li><a class ="inactive" href="pets.html"><img src="images/pets-inactive.png" alt="">Pets</a></li>
+                <li><a class ="inactive" href="recipes.html"><img src="images/recipe-inactive.png" alt="">Recipes</a></li>
+                <li><a class="active" href="travel.html"><img src="images/travel-active.png" alt="">Travel</a></li>
+            </ul>
+        </nav>
+        <h1 class="glow" tabindex="0">Travel</h1>
+    </header>
+    <main id="main">
+        <button id="glowControl">Glow Off</button>
+        <button id="darkMode" onclick="myFunction()">Dark Mode</button>
+        <div class="audio-container">
+            <audio controls>
+                <source src="audio/this-minimal-technology-pure.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <!-- Travel Location 1: Seattle -->
+        <div id="seattle">
+            <h2 tabindex="0">Seattle</h2>
+            <div class="grid-container-travel">
+                <div class="primary-travel-gif">
+                    <img src="images/seattle_primary_gif.gif" width = "400" alt="Seattle skyline showing angles around Space Needle." class="animation" tabindex="0">
+                </div>
+                <div class="primary-travel-image">
+                    <img src="images/seattle_primary_nongif.jpg" width = "400" alt="Space Needle and surrounding area on a sunny day." tabindex="0">
+                </div>
+            </div>
+            <div class="grid-container-travel">
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d172139.47937107552!2d-122.50686902759844!3d47.61292398213561!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490102c93e83355%3A0x102565466944d59a!2sSeattle%2C%20WA!5e0!3m2!1sen!2sus!4v1711839204052!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Google Maps of Seattle, WA" tabindex="0"></iframe>
+                </div>
+                <div>
+                    <h3 tabindex="0">Geographical Location: North America</h3>
+                    <p tabindex="0">Seattle, chief city of the state of Washington, U.S., seat (1853) of King county, the largest metropolis of the Pacific Northwest, and one of the largest and most affluent urban centres in the United States. A major port of entry and an air and sea gateway to Asia and Alaska, Seattle lies alongside Puget Sound, a deep inland arm of the northern Pacific Ocean, and is at the centre of a conurbation that is defined roughly by Everett to the north, Bellevue to the east, and Tacoma to the south.</p>
+                    <p tabindex="0">The city was settled on November 13, 1851, at what is now West Seattle. It was relocated the following year to a site across Elliott Bay near a Duwamish Indian village. It owes its name to the Native American leader Seattle, chief of the Duwamish, Suquamish, and other tribes of the Puget Sound area. Areas of great natural beauty, including the densely forested Olympic Peninsula and the Cascade Range, surround the city. Its urban centre, dominated by tall skyscrapers that overlook Elliott Bay and enhanced by the city’s abundant parks and neighbourhoods, also offers a handsome prospect.</p>
+                </div>
+            </div>
+
+            <!-- Activities List -->
+            <h3 tabindex="0">Activities</h3>
+            <ul class="list-grid" id="travel-activities">
+                <li class="grid-item" tabindex="0">Go to the Space Needle</li>
+                <li class="grid-item" tabindex="0">Visit Pike Place Market</li>
+                <li class="grid-item" tabindex="0">Walk around the University of Washington campus</li>
+                <li class="grid-item" tabindex="0">Visit the Chihuly Garden and Glass museum</li>
+            </ul>
+
+            <!-- Photo Gallery -->
+            <h3 tabindex="0">Photo Gallery</h3>
+            <div class="travel-gallery">
+                <div class="travel-gallery-item">
+                    <img src="images/seattle_pike_place.jpg" width ="200" alt = "The main sign reading Public Market Center in Pike Place Market." tabindex="0">
+                    <p class="caption" tabindex="0">Pike Place Market</p>
+                </div>
+                <div class="travel-gallery-item">
+                    <img src="images/seattle_uw.jpg" width ="200" alt = "A view of the cherry blossom trees at the University of Washington campus." tabindex="0">
+                    <p class="caption" tabindex="0">University of Washington Campus</p>
+                </div>
+                <div class="travel-gallery-item">
+                    <img src="images/seattle_chihuly_museum.jpg" width ="200" alt = "A view of the Space Needle taken from the Chihuly Garden and Glass museum with glass art." tabindex="0">
+                    <p class="caption" tabindex="0">The Dale Chihuly Museum</p>
+                </div>
+                <div class="travel-gallery-item">
+                    <img src="images/seattle_space_needle_view.jpg" width ="200" alt = "A view of Seattle from the Space Needle deck." tabindex="0">
+                    <p class="caption" tabindex="0">View from the Space Needle</p>
+                </div>
+                <div class="travel-gallery-item">
+                    <img src="images/seattle_amazon_spheres.jpg" width ="200" alt = "The Amazon Spheres on the Amazon Campus in Seattle." tabindex="0">
+                    <p class="caption" tabindex="0">The Amazon Spheres</p>
+                </div>
+            </div>
+
+            <!-- Name Credit -->
+            <!-- <p>Pearl Bradlee</p> -->
+        </div>
+
+        <!-- Travel Location 2: Niagara Falls -->
+        <div id="niagara-falls">
+            <h2 tabindex="0">Niagara Falls</h2>
+            <div class="grid-container-travel">
+                <div class="primary-travel-gif">
+                    <img src="images/niagara_falls_primary_gif.gif" width = "400" alt="Niagara Falls waterfall close up gif." class="animation" tabindex="0">
+                </div>
+                <div class="primary-travel-image">
+                    <img src="images/niagara_falls_primary_nongif.jpg" width = "400" alt="A zoomed out shot of Niagara Falls on a sunny day." tabindex="0">
+                </div>
+            </div>
+            <div class="grid-container-travel">
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46611.83383431673!2d-79.08668031930843!3d43.099479053498726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d363ea29e633b7%3A0x61975ae4b9c5aab3!2sNiagara%20Falls%2C%20NY!5e0!3m2!1sen!2sus!4v1711839722793!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Google Maps of Niagara Falls" tabindex="0"></iframe>
+                </div>
+                <div>
+                    <h3 tabindex="0">Geographical Location: North America</h3>
+                    <p tabindex="0">Niagara Falls is located on the border between Canada and the United States. Connecting Lake Erie and Lake Ontario, Niagara Falls has the highest flow rate of any waterfall in North America.</p>
+                    <p tabindex="0">Niagara Falls draws in thousands of visitors every year, and for good reason. As such, there are numerous things that you can see while you visit the falls, and it is very easy to make a full trip out of seeing this wonderful sight.</p>
+                </div>
+            </div>
+
+            <!-- Activities List -->
+            <h3 tabindex="0">Activities</h3>
+            <ul class="list-grid">
+                <li class="grid-item" tabindex="0">Take a guided tour around the Falls</li>
+                <li class="grid-item" tabindex="0">Visit the Niagara SkyWheel</li>
+                <li class="grid-item" tabindex="0">Visit Butterfly Conservatory</li>
+                <li class="grid-item" tabindex="0">Visit the White Water Walk</li>
+            </ul>
+
+            <!-- Photo Gallery -->
+            <h3 tabindex="0">Photo Gallery</h3>
+            <div class="travel-gallery">
+                <div class="travel-gallery-item">
+                    <img src="images/niagara_falls_mist.jpg" width ="200" alt = "A visualization of the ‘Horseshoe’ part of the falls." tabindex="0">
+                    <p class="caption" tabindex="0">The ‘Horseshoe'</p>
+                </div>
+                <div class="travel-gallery-item">
+                    <img src="images/niagara_falls_rainbow.jpg"  width ="200" alt="Niagara Falls with a rainbow touching down in it." tabindex="0">
+                    <p class="caption" tabindex="0">A Rainbow in Niagara Falls</p>
+                </div>
+                <div class="travel-gallery-item">
+                    <img src="images/niagara_falls_sunset.jpg" width ="200" alt="An orange sky overlooking Niagara Falls." tabindex="0">
+                    <p class="caption" tabindex="0">A sunset overlooking the falls</p>
+                </div>
+                <div class="travel-gallery-item">
+                    <img src="images/niagara_falls_colorful.jpg" width ="200" alt="Niagara Falls illuminated with colored lights." tabindex="0">
+                    <p class="caption" tabindex="0">A colorful view of Niagara Falls</p>
+                </div>
+                <div class="travel-gallery-item">
+                    <img src="images/niagara_falls_zoom-out.jpg" width ="200" alt="Niagara Falls from a distant perspective." tabindex="0">
+                    <p class="caption" tabindex="0">A distant look at Niagara Falls</p>
+                </div>
+            </div>
+            <!-- Name Credit -->
+            <!-- <p>Steven Jacovitch</p> -->
+        </div>
+
+        <!-- Travel Location 3: Rome -->
+        <div id="rome">
+            <h2 tabindex="0">Rome</h2>
+            <div class="grid-container-travel">
+                <div class="primary-travel-gif">
+                    <img src="images/rome_colosseum_primary_gif.gif" width = "400" alt="Timeplapse gif of construction of the colosseum." class="animation" tabindex="0">
+                </div>
+                <div class="primary-travel-image">
+                    <img src="images/rome_colosseum_primary_nongif.jpg" width = "400" alt="The Colosseum during the day." tabindex="0">
+                </div>
+            </div>
+            <div class="grid-container-travel">
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d190029.11506794946!2d12.371192180810732!3d41.909953276659216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6196f9928ebb%3A0xb90f770693656e38!2sRome%2C%20Metropolitan%20City%20of%20Rome%20Capital%2C%20Italy!5e0!3m2!1sen!2sus!4v1711839835245!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Google Maps of Rome, Italy" tabindex="0"></iframe>
+                </div>
+                <div>
+                    <h3 tabindex="0">Geographical Location: Europe</h3>
+                    <p tabindex="0">Rome is one of the oldest metropolitan areas in the world. With a history dating back to 700 BC with the birth of the Roman Empire, the city has maintained its status as a cultural and historical hub of Europe. The city is peppered with ancient monuments, statues, and piazzas from different eras of history. The most famous location, the Colosseum, is touted as one of the seven modern wonders of the world. Rome houses several world famous museums, such as the Borghese and the Vatican Museum. It is also the only city in the world to encompass a recognized country, Vatican City.</p>
+                    <p tabindex="0">Rome is also a great location for food, wine, and leisure. At the heart of Italy, Rome is a central gathering place for a diverse array of Italian cuisine; Neapolitan Pizza from the south, Tuscan wine, and truffle from the north. Rome’s most famous dish is carbonara. Beyond the food, Rome has a vibrant nightlife. The Trastevere neighborhood has plenty of bars and clubs for patrons and, just over the river, Centro’s shopping district is always bustling.</p>
+                </div>
+            </div>
+
+            <!-- Activities List -->
+            <h3 tabindex="0">Activities</h3>
+            <ul class="list-grid">
+                <li class="grid-item" tabindex="0">Visit the Trevi Fountain</li>
+                <li class="grid-item" tabindex="0">Take a pasta making class</li>
+                <li class="grid-item" tabindex="0">Visit the Vatican City</li>
+                <li class="grid-item" tabindex="0">Take a guided tour of the Roman Forum</li>
+            </ul>
+
+            <!-- Photo Gallery -->
+            <h3 tabindex="0">Photo Gallery</h3>
+            <div class="travel-gallery">
+                <div class="travel-gallery-item">
+                    <img src="images/rome_trevi_fountain.jpg" width ="200" alt = "A decorated marble fountain with several roman statues dancing." tabindex="0">
+                    <p class="caption" tabindex="0">The Trevi Fountain in Rome</p>
+                </div>
+                <div class="travel-gallery-item">
+                    <img src="images/rome_vatican.jpg"  width ="200" alt="An aerial view of a circular forum outlined with ornate columns." tabindex="0">
+                    <p class="caption" tabindex="0">The Vatican City</p>
+                </div>
+                <div class="travel-gallery-item">
+                    <img src="images/rome_spanish_steps.jpg" width ="200" alt="Decorative steps sitting behind a fountain with a small church at the top." tabindex="0">
+                    <p class="caption" tabindex="0">The Fontana della Barcaccia ("Fountain of the Boat")</p>
+                </div>
+                <div class="travel-gallery-item">
+                    <img src="images/rome_roman_forum.jpg" width ="200" alt="A ruin of large columns supporting a roof surrounded by smaller ruins." tabindex="0">
+                    <p class="caption" tabindex="0">The Roman Forum (Forum Romanum)</p>
+                </div>
+                <div class="travel-gallery-item">
+                    <img src="images/rome_victor_emmanuel.jpg" width ="200" alt="An ornate marble building with bronze statues of angels and chariots." tabindex="0">
+                    <p class="caption" tabindex="0">The Victor Emmanuel II National Monument</p>
+                </div>
+            </div>
+            <!-- Name Credit -->
+            <!-- <p>Frank Pelosi</p> -->
+        </div>
+
+        <!-- Travel Location 4: Paris -->
+        <div id="paris">
+            <h2 tabindex="0">Paris</h2>
+            <div class="grid-container-travel">
+                <div class="primary-travel-gif">
+                    <img src="images/paris_primary_gif.gif" width = "400" alt="The Eiffel Tower at night." class="animation" tabindex="0">
+                </div>
+                <div class="primary-travel-image">
+                    <img src="images/paris_primary_nongif.jpg" width = "400" alt="Paris skyline including the Eiffel Tower during the day." tabindex="0">
+                </div>
+            </div>
+            <div class="grid-container-travel">
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.96777833902!2d2.264635155779438!3d48.8588254925413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis%2C%20France!5e0!3m2!1sen!2sus!4v1711839932266!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Google Maps of Paris, France" tabindex="0"></iframe>
+                </div>
+                <div>
+                    <h3 tabindex="0">Geographical Location: Europe</h3>
+                    <p tabindex="0">Paris, the capital of France, is the most populated city in France and the fourt most populated city in the European Union. Paris is served by two major international airports: Charles de Gaulle Airport and Orly Airport. The city is particularly known for its museums and architectural landmarks.</p>
+                    <p tabindex="0">Paris is also celebrated for its vibrant arts scene and intellectual vibrancy. As a global center for literature, philosophy, and the arts, the city has been a muse for countless writers, painters, and thinkers throughout history. From the bustling markets to Michelin-starred restaurants, Paris offers a diverse and delectable culinary experience. Overall, Paris stands as a symbol of timeless beauty, cultural richness, and intellectual allure.</p>
+                </div>
+            </div>
+
+            <!-- Activities List -->
+            <h3 tabindex="0">Activities</h3>
+            <ul class="list-grid">
+                <li class="grid-item" tabindex="0">Take a guided tour of the Eiffel Tower</li>
+                <li class="grid-item" tabindex="0">Go on a walking tour of local restaurants</li>
+                <li class="grid-item" tabindex="0">Visit museums</li>
+                <li class="grid-item" tabindex="0">Take a boat tour of the Seine River</li>
+            </ul>
+
+            <!-- Photo Gallery -->
+            <h3 tabindex="0">Photo Gallery</h3>
+            <div class="travel-gallery">
+                <div class="travel-gallery-item">
+                    <img src="images/paris_louvre.jpg" width ="200" alt = "The Louvre Museum at night." tabindex="0">
+                    <p class="caption" tabindex="0">The Louvre Museum</p>
+                </div>
+                <div class="travel-gallery-item">
+                    <img src="images/paris_pont_alexandre.jpg"  width ="200" alt="A deck arch bridge spanning the Seine in Paris." tabindex="0">
+                    <p class="caption" tabindex="0">The Pont Alexandre III</p>
+                </div>
+                <div class="travel-gallery-item">
+                    <img src="images/paris_cafe.jpg" width ="200" alt="A cafe in Paris during the afternoon." tabindex="0">
+                    <p class="caption" tabindex="0">A Parisian Cafe</p>
+                </div>
+                <div class="travel-gallery-item">
+                    <img src="images/paris_arc_de_triomphe.jpg" width ="200" alt="The Arc de Triomphe monument in Paris." tabindex="0">
+                    <p class="caption" tabindex="0">The Arc de Triomphe</p>
+                </div>
+                <div class="travel-gallery-item">
+                    <img src="images/paris_street.jpg" width ="200" alt="A view down a Paris street with the Eiffel Tower." tabindex="0">
+                    <p class="caption" tabindex="0">A Paris Street</p>
+                </div>
+            </div>
+            <!-- Name Credit -->
+            <!-- <p>Pearl Bradlee</p> -->
+        </div>
+
+        <!-- Travel Location 5: Shanghai -->
+        <div id="shanghai">
+            <h2 tabindex="0">Shanghai</h2>
+            <div class="grid-container-travel">
+                <div class="primary-travel-gif">
+                    <img src="images/shanghai_primary_gif.gif" width = "400" alt="The Eiffel Tower at night." class="animation" tabindex="0">
+                </div>
+                <div class="primary-travel-image">
+                    <img src="images/shanghai_primary_nongif.jpeg" width = "400" alt="Paris skyline including the Eiffel Tower during the day." tabindex="0">
+                </div>
+            </div>
+
+            <div class="grid-container-travel">
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d436721.218687459!2d121.14711261313357!3d31.223928586802902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35b27040b1f53c33%3A0x295129423c364a1!2sShanghai%2C%20China!5e0!3m2!1sen!2sus!4v1711839999864!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Google Maps of Shanghai, China" tabindex="0"></iframe>
+                </div>
+                <div>
+                    <h3 tabindex="0">Geographical Location: Asia</h3>
+                    <p tabindex="0">Shanghai, often referred to as the "Pearl of the Orient," is a dynamic and vibrant metropolis in China. As one of the world's largest cities, Shanghai is a dazzling blend of tradition and modernity. With its iconic skyline featuring towering skyscrapers like the Shanghai Tower and the Oriental Pearl Tower, it's no wonder that Shanghai is often considered the financial and economic hub of Asia. Beyond its impressive architecture, the city boasts a rich cultural heritage, reflected in its historic neighborhoods such as the Bund and the French Concession. Here, you can stroll along tree-lined streets, explore colonial-era buildings, and savor a mix of international cuisines. Shanghai is also a global center for fashion, art, and entertainment, with a thriving arts scene, world-class museums, and a bustling nightlife. Visitors to Shanghai are sure to be captivated by its energy, diversity, and the seamless fusion of old and new.</p>
+                    <p tabindex="0">Shanghai is not just a city of skyscrapers; it's a city of contrasts. The serene Yu Garden and its classical Chinese architecture offer a peaceful escape from the bustling streets, while the ultra-modern shopping districts like Nanjing Road cater to the desires of avid shoppers. The city's food scene is a culinary adventure in itself, with a vast array of local and international dishes available from street vendors to Michelin-starred restaurants. Additionally, Shanghai is a gateway to Chinese culture and history, as it hosts numerous festivals, art exhibitions, and performances that showcase China's heritage. Whether you're wandering through ancient temples, exploring the thriving contemporary art scene, or enjoying a traditional tea ceremony, Shanghai promises a multifaceted experience that captures the essence of China's past, present, and future.</p>
+                </div>
+            </div>
+
+            <!-- Activities List -->
+            <h3 tabindex="0">Activities</h3>
+            <ul class="list-grid">
+                <li class="grid-item" tabindex="0">Take a local food tour in Central Shanghai</li>
+                <li class="grid-item" tabindex="0">Visit the Bund</li>
+                <li class="grid-item" tabindex="0">Go to the Shanghai Museum</li>
+                <li class="grid-item" tabindex="0">Visit the Shanghai Tower</li>
+            </ul>
+
+            <!-- Photo Gallery -->
+            <h3 tabindex="0">Photo Gallery</h3>
+            <div class="travel-gallery">
+                <div class="travel-gallery-item">
+                    <img src="images/shanghai_yu_garden.jpeg" width ="200" alt = "The Yu Garden at night." tabindex="0">
+                    <p class="caption" tabindex="0">The Yu Garden</p>
+                </div>
+                <div class="travel-gallery-item">
+                    <img src="images/shanghai_huangpu_river.jpeg"  width ="200" alt="View of the Huangpu River." tabindex="0">
+                    <p class="caption" tabindex="0">The Huangpu River</p>
+                </div>
+                <div class="travel-gallery-item">
+                    <img src="images/shanghai_tower.jpg" width ="200" alt="A tall skyscraper." tabindex="0">
+                    <p class="caption" tabindex="0">The Shanghai Tower</p>
+                </div>
+                <div class="travel-gallery-item">
+                    <img src="images/shanghai_china_art_museum.jpeg" width ="200" alt="A building with a red exterior." tabindex="0">
+                    <p class="caption" tabindex="0">The China Art Museum</p>
+                </div>
+                <div class="travel-gallery-item">
+                    <img src="images/shanghai_wukang_building.jpeg" width ="200" alt="A 30 degree building with red walls." tabindex="0">
+                    <p class="caption" tabindex="0">The Wukang Building</p>
+                </div>
+            </div>
+            <!-- Name Credit -->
+            <!-- <p>Yan Lu</p> -->
+        </div>
+
+        <a href="#" class="top">Back to Top &#8593;</a>
+
+    </main>
+    <footer>
+        <p class="footer-text" tabindex="0">SI 539: Common Class Project</p>
+        <p class="footer-text" tabindex="0"     >Pearl Bradlee</p>
+    </footer>
+
+    <!-- link javascript file -->
+    <script src="js/script.js"></script>
+</body>
+</html>

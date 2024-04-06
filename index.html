@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <header>
+        <a href="#main" class="skip-to-main-link">Skip to main content</a>
+        <nav>
+            <ul>
+                <li><a class="active" href ="index.html"><img src="images/home-active.png" alt="">Home</a></li>
+                <li><a class ="inactive" href="pets.html"><img src="images/pets-inactive.png" alt="">Pets</a></li>
+                <li><a class ="inactive" href="recipes.html"><img src="images/recipe-inactive.png" alt="">Recipes</a></li>
+                <li><a class ="inactive" href="travel.html"><img src="images/travel-inactive.png" alt="">Travel</a></li>
+            </ul>
+        </nav>
+        <h1 class="glow" tabindex="0">SI 539: Common Class Project</h1>
+    </header>
+
+    <main id="main">
+        <button id="glowControl">Glow Off</button>
+        <button id="darkMode" onclick="myFunction()">Dark Mode</button>
+        <div class="audio-container">
+            <audio controls>
+                <source src="audio/better-days.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <h2 tabindex="0">Welcome</h2>
+        <div>
+            <p tabindex="0">Hi there! Welcome to your go-to destination for all things pets, recipes, and travel. Explore a world of captivating content where we cater to your love for furry companions, culinary delights, and globetrotting adventures.</p>
+        </div>
+
+        <div>
+            <h2 tabindex="0">About Us</h2>
+            <p tabindex="0">We are the ultimate destination for pet enthusiasts, culinary aficionados, and world travelers alike. Dive into an exciting world where your passion for furry friends, delightful recipes, and travel adventures comes to life. </p>
+        </div>
+
+        <div class="featured">
+            <h2 tabindex="0">Featured Content</h2>
+            <div class="featured-gallery">
+                <a href="pets.html#ziggy"><img src="images/ziggy.jpg" width = "400" alt="Chihuahua laying outside on a porch in the sun." class="featured-img"></a>
+
+                <a href="pets.html#wagner"><img src="images/wagner_pets.jpg"  width ="200" alt="Wagner getting chin scratches." class="featured-img"></a>
+
+                <a href="recipes.html#banana-bread"><img src="images/chocolate_chip_banana_bread.jpg" width="400" alt="Two double chocoloate chip cookies." class="featured-img"></a>
+
+                <a href="recipes.html#swedish-pancakes"><img src="images/swedish_pancakes_platted.jpeg" width="400" alt="Three Swedish Pancakes with fruit and powdered sugar." class="featured-img"></a>
+
+                <a href="travel.html#seattle"><img src="images/seattle_primary_nongif.jpg" width = "400" alt="Space Needle and surrounding area on a sunny day." class="featured-img"></a>
+
+                <a href="travel.html#shanghai"><img src="images/shanghai_primary_nongif.jpeg" width = "400" alt="Paris skyline including the Eiffel Tower during the day." class="featured-img"></a>
+            </div>
+        </div>
+
+        <a href="#" class="top">Back to Top &#8593;</a>
+
+    <!-- Jackie Wolf -->
+    </main>
+
+    <footer>
+        <p class="footer-text" tabindex="0">SI 539: Common Class Project</p>
+        <p class="footer-text" tabindex="0">Pearl Bradlee</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

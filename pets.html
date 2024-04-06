@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pets</title>
+</head>
+<body>
+    <header>
+        <a href="#main" class="skip-to-main-link">Skip to main content</a>
+        <nav>
+            <ul>
+                <li><a class ="inactive" href ="index.html"><img src="images/home-inactive.png" alt="">Home</a></li>
+                <li><a class="active" href="pets.html"><img src="images/pets-active.png" alt="">Pets</a></li>
+                <li><a class ="inactive" href="recipes.html"><img src="images/recipe-inactive.png" alt="">Recipes</a></li>
+                <li><a class ="inactive" href="travel.html"><img src="images/travel-inactive.png" alt="">Travel</a></li>
+            </ul>
+        </nav>
+        <h1 class="glow" tabindex="0">Pets</h1>
+    </header>
+    <main id="main">
+        <button id="glowControl">Glow Off</button>
+        <button id="darkMode" onclick="myFunction()">Dark Mode</button>
+        <div class="audio-container">
+            <audio controls>
+                <source src="audio/chill-abstract-intention.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <!-- Pet 1: Bacon -->
+        <div id="bacon">
+            <h2 tabindex="0">Bacon Q Dog</h2>
+            <div class="grid-container-pets">
+                <div class="pet-main-image">
+                    <img src="images/bacon.jpg" width = "400" alt="Brown labradoodle wearing colorful lei" tabindex="0">
+                </div>
+                <div class="pet-text">
+                    <p tabindex="0">Bacon Q. Dog is a 9yr old labradoodle. He prefers to spend his days lounging among the three different beds/couches that his family has gifted him. He enjoys a walk or two around the neighborhood, as long as he can pretend that he doesn't see any of the other animals to avoid the embarrassment of not wanting to admit he has no wolf-like skills in chasing them.</p>
+                    <p tabindex="0">At night just as the rest of the family is ready to relax, Bacon suddenly wants to release all of his energy. He will place his toys on a mini couch and frantically drag the couch around, giving his toys "a ride." There is also a lot of rolling. Lots and lots of rolling.</p>
+                </div>
+            </div>
+            <!-- Photo Gallery -->
+            <h3 tabindex="0">Photo Gallery</h3>
+            <div class="additional-gallery">
+                <img src="images/bacon_bandana.JPG" width ="200" alt = "Brown labradoodle wearing an orange bandana" tabindex="0">
+                <img src="images/bacon_graduation.JPG"  width ="200" alt="Small labradoodle puppy wearing a graduation cap and gown" tabindex="0">
+                <video width="200" controls class="animation" tabindex="0">
+                    <source src="images/bacon_agility.mov">
+                    Your browser does not support the video tag.  This was a video of a girl and dog demonstrating a sit and stay procedure
+                </video>
+                <img src="images/bacon_halloween.JPG"  width ="200" alt="Brown labradoodle wearing a pirate costume" tabindex="0">
+            </div>
+            <!-- Likes -->
+            <h3>Likes</h3>
+            <ul class="list-grid">
+                <li class="grid-item" tabindex="0">Belly rubs</li>
+                <li class="grid-item" tabindex="0">Playing tug-of-war</li>
+                <li class="grid-item" tabindex="0">Swimming</li>
+                <li class="grid-item" tabindex="0">Sneaking on the couch</li>
+            </ul>
+
+            <!-- Name Credit -->
+            <!-- <p>Colleen van Lent</p> -->
+        </div>
+
+        <!-- Pet 2: Fitz -->
+        <div id="fitz">
+            <h2 tabindex="0">Fitz</h2>
+            <div class="grid-container-pets">
+                <div class="pet-main-image">
+                    <img src="images/fitz.png" width = "400" alt="Boston terrier watching a tennis ball at the table." tabindex="0">
+                </div>
+                <div class="pet-text">
+                    <p tabindex="0">Loves chasings tennis balls, chipmunks, squirrels, and birds. Often found sitting by the fire in wintertime, and in sun patches when available. He’s energetic, mischievous, and easily bored. He loves people and gets grumpy if left without a lap too long. </p>
+                    <p tabindex="0">Loves barking up trees, running around on the lawn, and digging in the dirt looking for moles. He especially likes getting treats and whines when he comes inside and doesn’t get a snack.</p>
+                </div>
+            </div>
+            <!-- Photo Gallery -->
+            <h3 tabindex="0">Photo Gallery</h3>
+            <div class="additional-gallery">
+                <img src="images/fitz_chair.jpeg" width ="200" alt = "Fitz standing on a wooden chair, looking at the camera." tabindex="0">
+                <img src="images/fitz_sleeping.jpeg"  width ="200" alt="Fitz sleeping in a fuzzy dog bed." tabindex="0">
+                <img src="images/fitz_lawn.jpeg"  width ="200" alt="Fitz laying out on the lawn in the grass." tabindex="0">
+                <img src="images/fitz_blanket.jpeg"  width ="200" alt="Fitz sleeping with his face buried in a plaid blanket, only his head is visible." tabindex="0">
+            </div>
+            <!-- Likes -->
+            <h3>Likes</h3>
+            <ul class="list-grid">
+                <li class="grid-item" tabindex="0">Blankets</li>
+                <li class="grid-item" tabindex="0">Being warm</li>
+                <li class="grid-item" tabindex="0">Barking</li>
+                <li class="grid-item" tabindex="0">Car rides</li>
+            </ul>
+
+            <!-- Name Credit -->
+            <!-- <p>Kay Malan + Anna Vento</p> -->
+        </div>
+
+        <!-- Pet 3: Ziggy -->
+        <div id="ziggy">
+            <h2 tabindex="0">Ziggy</h2>
+            <div class="grid-container-pets">
+                <div class="pet-main-image">
+                    <img src="images/ziggy.jpg" width = "400" alt="Chihuahua laying outside on a porch in the sun." tabindex="0">
+                </div>
+                <div class="pet-text">
+                    <p tabindex="0">Ziggy is a 6yr old Chihuahua mix. He enjoys chasing tennis balls, squirrles, and crows. He can often be found sunbathing on the back porch or taking long walks in his neighborhood. He enjoys meeting new neighborhood dogs and making new friends.</p>
+                    <p tabindex="0">Ziggy can be found sunbathing, digging in the garden, and chasing birds around the back yard. He doesn't like going outside in the rain or taking baths.</p>
+                </div>
+            </div>
+            <!-- Photo Gallery -->
+            <h3 tabindex="0">Photo Gallery</h3>
+            <div class="additional-gallery">
+                <img src="images/ziggy_sleeping.jpg"  width ="200" alt="Ziggy taking a nap on the couch." tabindex="0">
+                <img src="images/ziggy_snow.jpg"  width ="200" alt="Ziggy looking up at the snow falling outside." tabindex="0">
+                <img src="images/ziggy_sunbathing.jpg"  width ="200" alt="Ziggy laying down while sunbathing." tabindex="0">
+                <img src="images/ziggy_window.jpg"  width ="200" alt="Ziggy looking out the window at squirrels." tabindex="0">
+            </div>
+            <!-- Likes -->
+            <h3>Likes</h3>
+            <ul class="list-grid">
+                <li class="grid-item" tabindex="0">Sunbathing</li>
+                <li class="grid-item" tabindex="0">Treats</li>
+                <li class="grid-item" tabindex="0">Squeaky toys</li>
+                <li class="grid-item" tabindex="0">Long walks</li>
+            </ul>
+
+            <!-- Name Credit -->
+            <!-- <p>Pearl Bradlee</p> -->
+        </div>
+
+        <!-- Pet 4: Wagner -->
+        <div id="wagner">
+            <h2 tabindex="0">Wagner</h2>
+            <div class="grid-container-pets">
+                <div class="pet-main-image">
+                    <img src="images/wagner.jpg" width = "400" alt="Pug Shih Tzu mix named Wagner being held in arms." tabindex="0">
+                </div>
+                <div class="pet-text">
+                    <p tabindex="0">Wagner is a 2yr old Pug and Shih Tzu mix. He was named after Bobby Wagner, Seattle Seahawks linebacker. He is very friendly and loves meeting new people and other dogs.</p>
+                    <p tabindex="0">He can be found chasing the cat around the house, taking long naps, or with his head in a peanut buter jar. His favorite activities include napping, getting the zoomies, and begging for treats.</p>
+                </div>
+            </div>
+            <!-- Photo Gallery -->
+            <h3 tabindex="0">Photo Gallery</h3>
+            <div class="additional-gallery">
+                <img src="images/wagner_sunset.jpg"  width ="200" alt="Wagner taking a walk during an evening sunset." tabindex="0">
+                <img src="images/wagner_pets.jpg"  width ="200" alt="Wagner getting chin scratches." tabindex="0">
+                <img src="images/wagner_fish.jpg"  width ="200" alt="Wagner sitting in a fuzzy bed with a fish toy." tabindex="0">
+                <img src="images/wagner_bath.jpg"  width ="200" alt="Wagner taking a bath." tabindex="0">
+            </div>
+            <!-- Likes -->
+            <h3>Likes</h3>
+            <ul class="list-grid">
+                <li class="grid-item" tabindex="0">Peanut butter</li>
+                <li class="grid-item" tabindex="0">Tennis balls</li>
+                <li class="grid-item" tabindex="0">Bones</li>
+                <li class="grid-item" tabindex="0">Snacks</li>
+            </ul>
+
+            <!-- Name Credit -->
+            <!-- <p>Pearl Bradlee</p> -->
+        </div>
+
+        <!-- Pet 5: Bubba -->
+        <div id="bubba">
+            <h2 tabindex="0">Bubba</h2>
+            <div class="grid-container-pets">
+                <div class="pet-main-image">
+                    <img src="images/bubba.JPG" width = "400" alt="Orange kitten laying on a bed in the sun." tabindex="0">
+                </div>
+                <div class="pet-text">
+                    <p tabindex="0">Bubba is a 5.5yr old orange cat. He enjoys spending his days outside wandering around his neighborhood, chasing mice and birds.</p>
+                    <p tabindex="0">He loves looking out the window, getting treats, and playing with toys. He is an early riser and wakes his owner up for breakfast at 6am sharp.</p>
+                </div>
+            </div>
+            <!-- Photo Gallery -->
+            <h3 tabindex="0">Photo Gallery</h3>
+            <div class="additional-gallery">
+                <img src="images/bubba_closeup.jpg"  width ="200" alt="Bubba laying on the couch." tabindex="0">
+                <img src="images/bubba_cat_bed.jpg"  width ="200" alt="Bubba relaxing on a cat bed." tabindex="0">
+                <img src="images/bubba_window.jpg"  width ="200" alt="Bubba looking out the window." tabindex="0">
+                <img src="images/bubba_christmas.jpg"  width ="200" alt="Bubba relaxing in front of a Christmas tree." tabindex="0">
+            </div>
+
+            <!-- Likes -->
+            <h3>Likes</h3>
+            <ul class="list-grid">
+                <li class="grid-item" tabindex="0">Catnip</li>
+                <li class="grid-item" tabindex="0">Hunting birds</li>
+                <li class="grid-item" tabindex="0">Treats</li>
+                <li class="grid-item" tabindex="0">Toys</li>
+            </ul>
+
+            <!-- Name Credit -->
+            <!-- <p>Pearl Bradlee</p> -->
+        </div>
+
+        <a href="#" class="top">Back to Top &#8593;</a>
+    </main>
+    <footer>
+        <p class="footer-text" tabindex="0">SI 539: Common Class Project</p>
+        <p class="footer-text" tabindex="0" >Pearl Bradlee</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
